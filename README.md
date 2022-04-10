@@ -94,7 +94,7 @@ Cкопируйте файлы в репозиторий `catkin_ws/src`.
 
     `rospy.init_node('server', anonymous=True)`
     
-    `send_to_robot(1, -0.5)`  
+    `send_to_robot(1, -0.5)`  целевая линейная и угловая скорость
     
     `listen_to_robot()`
 
