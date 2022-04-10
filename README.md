@@ -82,3 +82,16 @@ Cкопируйте файлы в репозиторий `catkin_ws/src`.
 
 `Receiving Unix epoch time:      1649600737335066795`
 
+Для просмотра архитектуры сети ROS необходимо ввести
+
+`rqt_graph`
+
+# Настройка параметров
+
+Изменить целевую (начальную) линейную и угловую скорости можно в файле `server.py`  в блоке
+
+`if __name__ == "__main__":`
+    `rospy.init_node('server', anonymous=True)`
+    `send_to_robot(1, -0.5)`  
+    `listen_to_robot()`
+
