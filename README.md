@@ -21,7 +21,10 @@ Cкопируйте файлы в репозиторий `catkin_ws/src`.
 
 В окне robot.py будет быводиться
 
-Sending to server left encoder:  2054
+`Sending to server left encoder:  2054
+
 Sending to server right encoder: 1779 
+
 Dispatching GTM time:            2022-04-10 17:25:37.334246
-Dispatching Unix epoch time:     1649600737334106206 
+
+Dispatching Unix epoch time:     1649600737334106206 `
