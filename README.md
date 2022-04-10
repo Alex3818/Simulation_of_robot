@@ -19,12 +19,16 @@ Cкопируйте файлы в репозиторий `catkin_ws/src`.
   
 После завершения программы появится график с реальной и целевой траекторией.
 
-В окне robot.py будет быводиться
+*В окне robot.py будет выодиться* 
 
-`Sending to server left encoder:  2054
+Значение левого и правого энкодера робота и время отправки.
 
-Sending to server right encoder: 1779 
+`Sending to server left encoder:  2054`
 
-Dispatching GTM time:            2022-04-10 17:25:37.334246
+`Sending to server right encoder: 1779`
 
-Dispatching Unix epoch time:     1649600737334106206 `
+`Dispatching GTM time:            2022-04-10 17:25:37.334246`
+
+`Dispatching Unix epoch time:     1649600737334106206 `
+
+Так
