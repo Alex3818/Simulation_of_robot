@@ -90,11 +90,11 @@ Cкопируйте файлы в репозиторий `catkin_ws/src`.
 
 Изменить целевую (начальную) линейную и угловую скорости можно в файле `server.py`  в блоке
 
-`if __name__ == "__main__":`
+    if __name__ == "__main__":
 
-`rospy.init_node('server', anonymous=True)`
-    
-`send_to_robot(1, -0.5)`  целевая линейная и угловая скорость
-    
-`listen_to_robot()`
+        rospy.init_node('server', anonymous=True)
+
+        send_to_robot(1, -0.5)  целевая линейная и угловая скорость
+
+        listen_to_robot()
 
