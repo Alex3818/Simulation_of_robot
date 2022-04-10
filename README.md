@@ -11,7 +11,7 @@ $ catkin_make --only-pkg-with-deps simulation_of_robot
 
 $ roscore
 
-$ rosrum simulation_of_robot robot.py
+$ rosrun simulation_of_robot robot.py
  
 В новом терминале
 
