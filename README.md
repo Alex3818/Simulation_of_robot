@@ -5,7 +5,7 @@
 Cкопируйте файлы в репозиторий `catkin_ws/src`.
 Запустите в терминале в этом порядке следующие команды.
 
-`$ cd ~catkit_ws`
+`$ cd ~/catkin_ws`
 
 `$ catkin_make --only-pkg-with-deps simulation_of_robot`
 
