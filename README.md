@@ -54,7 +54,7 @@ Cкопируйте файлы в репозиторий `catkin_ws/src`.
 
 `y = -1.539186817778079(m)`
 
-`Î¸ = -1.338166656146812(rad)`
+`Θ = -1.338166656146812(rad)`
 
 `Dispathing GMT time:             2022-04-10 17:25:37.336405`
 
@@ -90,11 +90,11 @@ Cкопируйте файлы в репозиторий `catkin_ws/src`.
 
 Изменить целевую (начальную) линейную и угловую скорости можно в файле `server.py`  в блоке
 
-    `if __name__ == "__main__":`
+`if __name__ == "__main__":`
 
-    `rospy.init_node('server', anonymous=True)`
+`rospy.init_node('server', anonymous=True)`
     
-    `send_to_robot(1, -0.5)`  целевая линейная и угловая скорость
+`send_to_robot(1, -0.5)`  целевая линейная и угловая скорость
     
-    `listen_to_robot()`
+`listen_to_robot()`
 
